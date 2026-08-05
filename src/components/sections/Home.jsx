@@ -11,7 +11,7 @@ export const Home = () =>{
                 </h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                Hi! I'm Tamaramieka Jeffrey Darlington — an emerging Data Analyst and Software Developer with a foundation in C++ and web development. I work with Python, SQL, and automation to turn data into insights, and I’m building a growing portfolio in analytics, reporting, and problem-solving.
+                Software Developer with also data focused on building strong skills across backend development, data analysis, and problem-solving. I'm currently working with Java, Python, SQL, Docker, and Linux to build practical projects, alongside Excel for clear data insights and simple data solutions.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects" 

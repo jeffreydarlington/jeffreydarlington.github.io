@@ -13,13 +13,14 @@ export const Skills = () => {
 
             {/* Data & Analytics */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-yellow-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Data & Analytics</h3>
+              <h3 className="text-xl font-bold mb-2">Data</h3>
               <div className="flex flex-wrap gap-2">
                 {[
                   "Python (Pandas, NumPy)",
                   "SQL",
+                  "PostgreSQL",
                   "Excel",
-                   "IBM Cognos Analytics",
+                  "IBM Cognos Analytics",
                   "APIs",
                   "Data Cleaning",
                   "Visualization"
@@ -40,9 +41,7 @@ export const Skills = () => {
               <div className="flex flex-wrap gap-2">
                 {[
                   "React",
-                  "TypeScript",
                   "TailwindCSS",
-                  "Next.js",
                   "Redux",
                 ].map((skill, key) => (
                   <span
@@ -60,7 +59,10 @@ export const Skills = () => {
               <h3 className="text-xl font-bold mb-2">Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {[
+                  "Java",
                   "Node.js",
+                  "Docker",
+                  "Maven",
                 ].map((skill, key) => (
                   <span
                     key={key}
@@ -77,9 +79,13 @@ export const Skills = () => {
               <h3 className="text-xl font-bold mb-2">Programming Foundations</h3>
               <div className="flex flex-wrap gap-2">
                 {[
-                  "C++",
+                  "C/C++",
                   "OOP",
                   "Version Control (Git/GitHub)",
+                  "Gitflow",
+                  "Linux/CLI",
+                  "Bash Scripting",
+                  "Regex",
                   "Problem Solving",
                 ].map((skill, key) => (
                   <span
